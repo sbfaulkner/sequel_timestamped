@@ -15,6 +15,5 @@ SPEC = Gem::Specification.new do |s|
   s.has_rdoc = true 
   s.extra_rdoc_files = ["README.markdown"] 
   s.add_dependency "sequel"
-  # s.executables = ["kulriir"]
-  # s.rubyforge_project = "kulriir"
+  # s.rubyforge_project = "sequel_timestamped"
 end 
