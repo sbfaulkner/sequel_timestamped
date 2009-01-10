@@ -25,7 +25,14 @@ Install the gem(s):
     class Post < Sequel::Model
       is :timestamped
     end
-    
+
+## TODO
+
+- add tests
+- maybe rename sequel\_audited
+- add created_by and updated_by support?
+- publish in sequel www/pages/plugins
+
 ## Legal
 
 **Author:** S. Brent Faulkner <brentf@unwwwired.net>  
