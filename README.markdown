@@ -7,6 +7,9 @@ my take on a timestamping plugin for sequel
 The existing implementations I saw checked for the attributes every time a
 record was saved. This version checks when plugged in.
 
+Additionally, the updated\_by attribute is explicitly settable in at least one
+other implementation. It's not in this one (by design).
+
 ## Installation
 
 Run the following if you haven't already:
@@ -28,9 +31,8 @@ Install the gem(s):
 
 ## TODO
 
-- add tests
 - maybe rename sequel\_audited
-- add created_by and updated_by support?
+- add created\_by and updated\_by support?
 - publish in sequel www/pages/plugins
 
 ## Legal
