@@ -3,7 +3,6 @@ require 'test/unit'
 require 'sequel'
 
 DB = Sequel.connect('sqlite:/')
-# DB.execute("SET client_min_messages TO 'WARNING'")
 
 class ItemWithoutTimestamps < Sequel::Model
   set_schema do
