@@ -15,7 +15,7 @@ other implementation. It's not in this one (by design).
 Run the following if you haven't already:
 
     $ gem sources -a http://gems.github.com
-  
+
 Install the gem(s):
 
     $ sudo gem install -r sbfaulkner-sequel_timestamped
@@ -24,7 +24,7 @@ Install the gem(s):
 
     require 'rubygems'
     require 'sequel'
-    
+
     class Post < Sequel::Model
       is :timestamped, :using => :utc
     end
@@ -43,5 +43,5 @@ Install the gem(s):
 
 ## Legal
 
-**Author:** S. Brent Faulkner <brentf@unwwwired.net>  
+**Author:** S. Brent Faulkner <brentf@unwwwired.net>
 **License:** Copyright &copy; 2009 unwwwired.net, released under the MIT license
