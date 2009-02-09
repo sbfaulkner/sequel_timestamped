@@ -26,8 +26,14 @@ Install the gem(s):
     require 'sequel'
     
     class Post < Sequel::Model
-      is :timestamped
+      is :timestamped, :using => :utc
     end
+
+## UPDATES
+
+### 1.0.3
+
+- add support for utc (or localtime) by passing option :using => :utc (or :localtime)
 
 ## TODO
 
