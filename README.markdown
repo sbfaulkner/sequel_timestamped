@@ -31,6 +31,10 @@ Install the gem(s):
 
 ## UPDATES
 
+### 1.0.4
+
+- [foca] define callback methods instead of using deprecated api
+
 ### 1.0.3
 
 - add support for utc (or localtime) by passing option :using => :utc (or :localtime)
