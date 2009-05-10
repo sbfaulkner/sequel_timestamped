@@ -1,7 +1,7 @@
 SPEC = Gem::Specification.new do |s|
   # identify the gem
   s.name = "sequel_timestamped"
-  s.version = "1.0.3"
+  s.version = "1.0.4"
   s.author = "S. Brent Faulkner"
   s.email = "brentf@unwwwired.net"
   s.homepage = "http://github.com/sbfaulkner/sequel_timestamped"
